@@ -1,0 +1,24 @@
+.header {
+  align-items: center;
+  display: flex;
+  height: 70px;
+  width: 100%;
+  background-color: #1b1bb3;
+  color: rgb(241, 238, 238);
+  position: fixed;
+  /* justify-content: space-between; */
+}
+
+.header-content {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header p {
+  font-size: 1rem;
+  line-height: 1rem;
+}
