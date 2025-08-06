@@ -1,0 +1,126 @@
+.sidebar {
+  /* border: 1px solid black; */
+  border-right: 1px solid rgba(9, 9, 116, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  background-color: #f7f7f7;
+  justify-content: space-between;
+}
+
+.sidebar-modules_full {
+  padding-top: calc(70px + 0.5rem);
+}
+
+.sidebar-modules_full > h2 {
+  border-bottom: 1px solid rgba(9, 9, 116, 0.1);
+  color: #090974;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  /* text-decoration: underline; */
+}
+
+.sidebar-listOfModules {
+  /* margin-top: 20px; */
+}
+
+.sidebar-listOfModules > ul {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.sidebar-listOfModules > ul > li {
+  line-height: 1rem;
+  list-style: none;
+  font-size: 1rem;
+  padding: 10px 15px;
+}
+
+.sidebar-listOfModules > ul > li > a {
+  text-decoration: none;
+  color: #090974;
+  text-transform: uppercase;
+}
+
+.module {
+  /* margin-top: 15px; */
+  /* margin-bottom: 15px; */
+  border-bottom: 1px solid rgba(9, 9, 116, 0.1);
+}
+
+.module > a {
+  color: #1b1bb3;
+  display: block;
+  padding: 10px 0px 10px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-out 0.3s;
+}
+
+.module > a.active {
+  background-color: #1b1bb3;
+  color: #f7f7f7;
+}
+
+/* .module > a:hover {
+  background-color: #1b1bb3;
+  color: #f7f7f7;
+} */
+
+.submodule {
+  display: block;
+}
+
+.submodule > ul {
+  margin-top: 0px;
+}
+
+.submodule > ul > li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.submodule > ul > li:last-child {
+  margin-bottom: 0px;
+}
+
+.submodule > ul > li > a {
+  color: #1b1bb3;
+  text-decoration: none;
+}
+
+/* .modulesList {
+  margin-top: 15px;
+  padding-left: 15px;
+}
+
+.modulesList > li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.modulesList > li:last-child {
+  margin-bottom: 0;
+}
+
+.modulesList > li > a {
+  color: #1b1bb3;
+  text-decoration: none;
+}
+
+.module {
+  border-bottom: 1px solid rgba(9, 9, 116, 0.1);
+  position: relative;
+}
+
+.module > ul {
+  display: none;
+  position: absolute;
+} */

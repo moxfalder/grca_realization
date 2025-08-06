@@ -1,0 +1,6 @@
+.workarea {
+  display: block;
+  position: relative;
+  padding-top: calc(70px);
+  margin-left: 300px;
+}

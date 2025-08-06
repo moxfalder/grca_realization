@@ -1,0 +1,14 @@
+.header-user {
+  display: block;
+}
+
+.header-user-name {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+}
+
+.header-user-name .user-position {
+  font-size: 0.9rem;
+  text-transform: lowercase;
+}
