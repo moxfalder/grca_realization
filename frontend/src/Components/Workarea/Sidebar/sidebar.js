@@ -1,14 +1,19 @@
 import "./sidebar.css";
 import Button from "../../UI/Button/button";
+// import onClickHandler from "../../../functions";
 
 function Sidebar(props) {
   const onClickHandler = (e) => {
     e.preventDefault();
+    const target = document.querySelector(".submodule");
+    console.log(target);
 
     if (e.target.classList.contains("active")) {
       e.target.classList.remove("active");
+      target.style.display = "none";
     } else {
       e.target.classList.add("active");
+      target.style.display = "block";
     }
   };
 
@@ -19,15 +24,11 @@ function Sidebar(props) {
         <div className="sidebar-listOfModules">
           <div className="modules">
             <div className="module">
-              {/* <a
-                onClick={}
-                href=""
-              > */}
               <a onClick={onClickHandler} className="moduleTitle" href="">
                 ЗАКАЗ УСЛУГ
               </a>
               <div className="submodule">
-                <ul className="modulesList">
+                <ul className="submodule-titles">
                   <li>
                     <a href="">
                       Государственная регистрация недвижимого имущества

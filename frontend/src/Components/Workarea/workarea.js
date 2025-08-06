@@ -7,7 +7,7 @@ function Workarea() {
   return (
     <div className="workarea">
       {/* <Sidebar /> */}
-      <Workplace />
+      <Workplace title="Информация о пользователе" />
     </div>
   );
 }

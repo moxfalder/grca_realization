@@ -75,12 +75,17 @@
 } */
 
 .submodule {
-  display: block;
+  display: none;
 }
 
-.submodule > ul {
-  margin-top: 0px;
-}
+/* .submodule {
+  display: block;
+  margin-top: 10px;
+} */
+
+/* .submodule > ul {
+  margin-top: 10px;
+} */
 
 .submodule > ul > li {
   list-style: none;

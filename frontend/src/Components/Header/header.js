@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="header">
       <div className="header-content">
-        <p>Hello world!</p>
+        <p>Здесь должен быть логотип</p>
         <User />
       </div>
     </div>
