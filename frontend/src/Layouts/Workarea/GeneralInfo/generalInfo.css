@@ -1,0 +1,72 @@
+.generalInfo {
+  margin: 0px auto;
+  margin-top: 20px;
+  width: 98%;
+}
+
+.generalInfo-actives {
+  background-color: #f7f7f7;
+  border: 1px solid rgba(9, 9, 116, 0.1);
+  min-width: 100%;
+}
+
+.generalInfo-actives-header {
+  align-items: center;
+  background-color: #1b1bb3;
+  border: none;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  height: 30px;
+}
+
+.generalInfo-actives-header > h2 {
+  color: #f7f7f7;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 0.75rem;
+  padding-left: 30px;
+  text-transform: uppercase;
+}
+
+.generalInfo-actives-userInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.generalInfo-actives-userInfo .aboutUser,
+.generalInfo-actives-userInfo .aboutOrganization {
+  border: 1px solid rgba(9, 9, 116, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  width: 49%;
+}
+
+/* .generalInfo-actives-userInfo .aboutUser .userInfoFIO > p,
+.generalInfo-actives-userInfo .aboutOrganization .userInfoFIO > p {
+  font-size: 1rem;
+} */
+
+.userInfo {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.userInfoFIO:last-child {
+  margin-bottom: 0;
+}
+
+.staticInfo,
+.dynamicInfo {
+  line-height: 1rem;
+}
+
+.staticInfo {
+  font-weight: 600;
+}
+
+.dynamicInfo {
+  margin-left: 20px;
+}

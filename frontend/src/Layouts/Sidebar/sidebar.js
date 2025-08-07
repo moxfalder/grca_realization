@@ -1,5 +1,6 @@
 import "./sidebar.css";
-import Button from "../../UI/Button/button";
+import Button from "../../Components/UI/Button/button";
+import { Link } from "react-router-dom";
 // import onClickHandler from "../../../functions";
 
 function Sidebar(props) {
@@ -30,9 +31,12 @@ function Sidebar(props) {
               <div className="submodule">
                 <ul className="submodule-titles">
                   <li>
-                    <a href="">
+                    <Link to="registration">
                       Государственная регистрация недвижимого имущества
-                    </a>
+                    </Link>
+                    {/* <a href="">
+                      Государственная регистрация недвижимого имущества
+                    </a> */}
                   </li>
                   <li>
                     <a href="">Техническая инвентаризация</a>
