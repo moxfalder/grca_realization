@@ -8,7 +8,7 @@ function MainLayout() {
     <>
       <Header />
       <Sidebar />
-      <Workarea />
+      {/* <Workarea /> */}
       <Outlet />
     </>
   );

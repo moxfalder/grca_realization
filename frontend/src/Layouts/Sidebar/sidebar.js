@@ -1,13 +1,19 @@
 import "./sidebar.css";
 import Button from "../../Components/UI/Button/button";
 import { Link } from "react-router-dom";
-// import onClickHandler from "../../../functions";
+import { useState } from "react";
+import ModuleOrder from "../../Components/module/moduleOrder";
 
 function Sidebar(props) {
+  // const [title, setTitle] = useState();
+  // const changeTitle = () => {
+  //   setTitle(getTitle());
+  // };
+
   const onClickHandler = (e) => {
     e.preventDefault();
     const target = document.querySelector(".submodule");
-    console.log(target);
+    // console.log(target);
 
     if (e.target.classList.contains("active")) {
       e.target.classList.remove("active");
@@ -18,33 +24,44 @@ function Sidebar(props) {
     }
   };
 
+  // const [title, setTitle] = useState(
+  //   "Государственная регистрация недвижимого имущества1111"
+  // );
+
   return (
     <div className="sidebar">
       <div className="sidebar-modules_full">
-        <h2>{props.title}</h2>
+        {/* <h2>{props.title}</h2> */}
         <div className="sidebar-listOfModules">
           <div className="modules">
-            <div className="module">
+            <ModuleOrder title="Гос регистрация" />
+            {/* <div className="module">
               <a onClick={onClickHandler} className="moduleTitle" href="">
                 ЗАКАЗ УСЛУГ
               </a>
               <div className="submodule">
                 <ul className="submodule-titles">
-                  <li>
+                  {orderTitleList.map((orderTitle) => {
+                    return (
+                      <>
+                        <li className="submodule-title-list">
+                          <Link to="/">{orderTitle}</Link>
+                        </li>
+                      </>
+                    );
+                  })}
+                  <li className="submodule-title-list">
                     <Link to="registration">
                       Государственная регистрация недвижимого имущества
                     </Link>
-                    {/* <a href="">
-                      Государственная регистрация недвижимого имущества
-                    </a> */}
                   </li>
-                  <li>
+                  <li className="submodule-title-list">
                     <a href="">Техническая инвентаризация</a>
                   </li>
-                  <li>
+                  <li className="submodule-title-list">
                     <a href="">Геодезия</a>
                   </li>
-                  <li>
+                  <li className="submodule-title-list">
                     <a href="">Оценка</a>
                   </li>
                 </ul>
@@ -54,38 +71,8 @@ function Sidebar(props) {
               <a className="moduleTitle" href="">
                 статистика
               </a>
-            </div>
+            </div> */}
           </div>
-          {/* <ul>
-            <li className="module">
-              <a href="">ЗАКАЗ УСЛУГ</a>
-              <ul className="modulesList">
-                <li>
-                  <a href="">
-                    Государственная регистрация недвижимого имущества
-                  </a>
-                </li>
-                <li>
-                  <a href="">Техническая инвентаризация</a>
-                </li>
-                <li>
-                  <a href="">Геодезия</a>
-                </li>
-                <li>
-                  <a href="">Оценка</a>
-                </li>
-              </ul>
-            </li>
-            <li className="module">
-              <a href="">статистика</a>
-            </li>
-            <li>
-              <a href="">Геодезия</a>
-            </li>
-            <li>
-              <a href="">Оценка</a>
-            </li>
-          </ul> */}
         </div>
       </div>
       <Button type="submit" text="Выйти из системы" />

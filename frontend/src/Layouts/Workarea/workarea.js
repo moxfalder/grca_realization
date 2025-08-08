@@ -1,5 +1,4 @@
 import "./workarea.css";
-import generalInfo from "./GeneralInfo/generalInfo";
 
 function Workarea() {
   return (

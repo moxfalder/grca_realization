@@ -1,12 +1,13 @@
 import "./generalInfo.css";
-import Width from "../../../functions/width";
+// import Width from "../../../functions/width";
 
 function GeneralInfo(props) {
+  const { title } = props;
   return (
-    <div className="generalInfo">
+    <div className="generalInfo workarea">
       <div className="generalInfo-actives">
         <div className="generalInfo-actives-header">
-          <h2>{props.title}</h2>
+          <h2>{title}</h2>
         </div>
         <div className="generalInfo-actives-userInfo">
           <div className="aboutUser">
@@ -65,7 +66,6 @@ function GeneralInfo(props) {
             </div>
           </div>
         </div>
-        <div>Width</div>
       </div>
     </div>
   );

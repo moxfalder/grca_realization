@@ -2,12 +2,13 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Component } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Header from "./Components/Header/header";
-// import Workarea from "./Components/Workarea/workarea";
-// import Sidebar from "./Components/Workarea/Sidebar/sidebar";
 import MainLayout from "./Layouts/mainLayouts";
 import Registration from "./Components/Registraion/registration";
-import GeneralInfo from "./Layouts/Workarea/GeneralInfo/generalInfo";
+import GeneralInfo from "./Components/GeneralInfo/generalInfo";
+
+// const getTitleList = () => {
+//   return;
+// };
 
 function App() {
   return (
@@ -15,7 +16,10 @@ function App() {
       <div className="grcaApp">
         <Routes>
           <Route path="/" element={<MainLayout />}>
-            <Route index element={<GeneralInfo />} />
+            <Route
+              index
+              element={<GeneralInfo title="Информация о пользователе" />}
+            />
             <Route path="/registration" element={<Registration />} />
           </Route>
         </Routes>

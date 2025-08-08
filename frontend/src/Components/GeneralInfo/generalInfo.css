@@ -1,13 +1,16 @@
-.generalInfo {
-  margin: 0px auto;
-  margin-top: 20px;
-  width: 98%;
-}
+/* .generalInfo {
+  margin-top: 70px;
+  margin-left: 300px;
+  position: absolute;
+  width: calc(100% - 300px);
+} */
 
 .generalInfo-actives {
   background-color: #f7f7f7;
   border: 1px solid rgba(9, 9, 116, 0.1);
-  min-width: 100%;
+  margin: 0px auto;
+  margin-top: 20px;
+  width: 98%;
 }
 
 .generalInfo-actives-header {

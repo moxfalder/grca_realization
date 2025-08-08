@@ -1,5 +1,8 @@
-let workarea = document.querySelectorAll(".workarea");
-// console.log(workarea);
+// const Width = () => {
+//   let sidebar = document.querySelector(".sidebar");
+//   let sidebarWidth = sidebar.offsetWidth;
 
-let orders = document.querySelectorAll(".sidebar-listOfModules");
-console.log(orders);
+//   return sidebarWidth;
+// };
+
+// console.log(Width());
