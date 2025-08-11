@@ -1,6 +1,8 @@
 import "./registration.css";
 
 function Registration(props) {
+  // console.log(props);
+
   return (
     <div className="registration workarea">
       <div className="registration-actives">

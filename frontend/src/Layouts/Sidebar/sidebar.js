@@ -5,36 +5,13 @@ import { useState } from "react";
 import ModuleOrder from "../../Components/module/moduleOrder";
 
 function Sidebar(props) {
-  // const [title, setTitle] = useState();
-  // const changeTitle = () => {
-  //   setTitle(getTitle());
-  // };
-
-  const onClickHandler = (e) => {
-    e.preventDefault();
-    const target = document.querySelector(".submodule");
-    // console.log(target);
-
-    if (e.target.classList.contains("active")) {
-      e.target.classList.remove("active");
-      target.style.display = "none";
-    } else {
-      e.target.classList.add("active");
-      target.style.display = "block";
-    }
-  };
-
-  // const [title, setTitle] = useState(
-  //   "Государственная регистрация недвижимого имущества1111"
-  // );
-
   return (
     <div className="sidebar">
       <div className="sidebar-modules_full">
         {/* <h2>{props.title}</h2> */}
         <div className="sidebar-listOfModules">
           <div className="modules">
-            <ModuleOrder title="Гос регистрация" />
+            <ModuleOrder title="заказ услуг" />
             {/* <div className="module">
               <a onClick={onClickHandler} className="moduleTitle" href="">
                 ЗАКАЗ УСЛУГ

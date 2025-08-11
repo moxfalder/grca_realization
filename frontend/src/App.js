@@ -1,14 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Component } from "react";
+import React, { Component } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainLayout from "./Layouts/mainLayouts";
 import Registration from "./Components/Registraion/registration";
 import GeneralInfo from "./Components/GeneralInfo/generalInfo";
-
-// const getTitleList = () => {
-//   return;
-// };
 
 function App() {
   return (
@@ -21,6 +17,7 @@ function App() {
               element={<GeneralInfo title="Информация о пользователе" />}
             />
             <Route path="/registration" element={<Registration />} />
+            <Route path="*" element={<GeneralInfo />} />
           </Route>
         </Routes>
         {/* <Header />
