@@ -1,6 +1,6 @@
 import "./registration.css";
 import Card from "../UI/card/card";
-import Button from "../UI/Button/button";
+import Links from "../UI/Link/link";
 
 function Registration(props) {
   // console.log(props);
@@ -16,7 +16,7 @@ function Registration(props) {
             <Card />
           </div>
           <div className="cards-return">
-            <Button text="Вернуться" formaction="/" />
+            <Links text="Вернуться" />
           </div>
         </div>
       </div>

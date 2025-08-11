@@ -16,7 +16,12 @@ function App() {
               index
               element={<GeneralInfo title="Информация о пользователе" />}
             />
-            <Route path="/registration" element={<Registration />} />
+            <Route
+              path="/registration"
+              element={
+                <Registration title="Государственная регистрация недвижимого имущества" />
+              }
+            />
             <Route path="*" element={<GeneralInfo />} />
           </Route>
         </Routes>
