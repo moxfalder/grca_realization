@@ -30,3 +30,8 @@
   padding-left: 30px;
   text-transform: uppercase;
 }
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}

@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 } */
+.h2-padding {
+  padding: 10px 0px;
+}
+
+.workarea-margin {
+  margin: 30px;
+}

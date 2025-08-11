@@ -7,9 +7,9 @@ function GeneralInfo(props) {
     <div className="generalInfo workarea">
       <div className="generalInfo-actives">
         <div className="generalInfo-actives-header">
-          <h2>{title}</h2>
+          <h2 className="h2-padding">{title}</h2>
         </div>
-        <div className="generalInfo-actives-userInfo">
+        <div className="generalInfo-actives-userInfo workarea-margin">
           <div className="aboutUser">
             <div className="userInfo">
               <p className="staticInfo">ФИО:</p>
