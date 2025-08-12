@@ -1,18 +1,17 @@
 import "./ref.css";
 import { Link } from "react-router-dom";
 import services from "../../data/services";
-import getTitle from "../../utils/getTitle";
+import { showHideServices } from "../../utils/showHide";
 
 const Refs = (props) => {
-  const showHideServices = (e) => {
-    let refsTitle = document.querySelectorAll(".refs-title");
-    console.log(e);
-    if (e.target.classList.contains("active")) {
-      e.target.classList.remove("active");
-    } else {
-      e.target.classList.add("active");
-    }
-  };
+  // const showHideServices = (e) => {
+  //   const elem = document.querySelectorAll(".refs-title-link");
+
+  //   for (let i = 0; i < elem.length; i++) {
+  //     elem[i].classList.remove("active");
+  //   }
+  //   e.target.classList.add("active");
+  // };
 
   return (
     <div className="refs submodule">
