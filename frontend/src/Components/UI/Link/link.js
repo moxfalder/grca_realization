@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./link.css";
 const Links = (props) => {
   return (
     <div className="link">

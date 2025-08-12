@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'grka';
+  src:  url('../fonts/grka.eot?c1xwem');
+  src:  url('../fonts/grka.eot?c1xwem#iefix') format('embedded-opentype'),
+    url('../fonts/grka.ttf?c1xwem') format('truetype'),
+    url('../fonts/grka.woff?c1xwem') format('woff'),
+    url('../fonts/grka.svg?c1xwem#grka') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.grka {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'grka' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.grka-chevron-right:before {
+  content: "\e92e";
+}
+.grka-chevron-left:before {
+  content: "\e92f";
+}
+.grka-c-circle:before {
+  content: "\e930";
+}
+.grka-play-fill:before {
+  content: "\e92d";
+}
+.grka-emoji-smile:before {
+  content: "\e929";
+}
+.grka-clipboard-heart:before {
+  content: "\e92a";
+}
+.grka-person-lines-fill:before {
+  content: "\e92b";
+}
+.grka-play-circle:before {
+  content: "\e92c";
+}
+.grka-file:before {
+  content: "\e928";
+}
+.grka-card-image:before {
+  content: "\e922";
+}
+.grka-clipboard-pulse:before {
+  content: "\e923";
+}
+.grka-brightness-high:before {
+  content: "\e924";
+}
+.grka-printer:before {
+  content: "\e925";
+}
+.grka-calendar-week:before {
+  content: "\e926";
+}
+.grka-shield-lock:before {
+  content: "\e927";
+}
+.grka-phone2:before {
+  content: "\e921";
+  color: #1d499b;
+}
+.grka-chevron-up:before {
+  content: "\e905";
+}
+.grka-chevron-down:before {
+  content: "\e907";
+}
+.grka-camera-video:before {
+  content: "\e908";
+}
+.grka-award:before {
+  content: "\e909";
+}
+.grka-card-checklist:before {
+  content: "\e90a";
+}
+.grka-watch:before {
+  content: "\e90b";
+}
+.grka-vector-pen:before {
+  content: "\e90c";
+}
+.grka-trophy:before {
+  content: "\e90d";
+}
+.grka-tencent-qq:before {
+  content: "\e90e";
+}
+.grka-telephone-1:before {
+  content: "\e90f";
+}
+.grka-stopwatch:before {
+  content: "\e910";
+}
+.grka-phone-vibrate:before {
+  content: "\e911";
+}
+.grka-mailbox:before {
+  content: "\e912";
+}
+.grka-hand-thumbs-up:before {
+  content: "\e913";
+}
+.grka-graph-up-arrow:before {
+  content: "\e914";
+}
+.grka-filetype-pdf:before {
+  content: "\e915";
+}
+.grka-compass:before {
+  content: "\e916";
+}
+.grka-house-gear:before {
+  content: "\e917";
+}
+.grka-instagram:before {
+  content: "\e918";
+}
+.grka-compass-drafting-solid:before {
+  content: "\e919";
+}
+.grka-icon_logo:before {
+  content: "\e900";
+}
+.grka-pen-to-square-regular:before {
+  content: "\e91a";
+}
+.grka-ruler-combined-solid:before {
+  content: "\e91b";
+}
+.grka-scale-unbalanced-solid:before {
+  content: "\e91c";
+}
+.grka-scroll-solid:before {
+  content: "\e91d";
+}
+.grka-signature-solid:before {
+  content: "\e91e";
+}
+.grka-bars:before {
+  content: "\e91f";
+}
+.grka-search:before {
+  content: "\e920";
+}
+.grka-mail:before {
+  content: "\e901";
+}
+.grka-facebook:before {
+  content: "\e902";
+}
+.grka-ok:before {
+  content: "\e903";
+}
+.grka-telegram:before {
+  content: "\e904";
+}
+.grka-vk1:before {
+  content: "\e906";
+}

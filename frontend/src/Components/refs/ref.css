@@ -1,3 +1,48 @@
 .moduleTitle {
   cursor: pointer;
 }
+
+.refs .refs-titles-list {
+  padding-left: 20px !important;
+}
+
+.refs .refs-titles-list .refs-title > a {
+  display: block;
+  position: relative;
+}
+
+.refs .refs-titles-list .refs-title > a::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: rgba(9, 9, 116, 0.5);
+  margin-top: 5px;
+  /* position: absolute; */
+  /* top: 25px; */
+  width: 0;
+  transition: all 0.3s ease-in;
+}
+
+.refs .refs-titles-list .refs-title > a:hover::after {
+  width: 70%;
+}
+
+.refs .refs-titles-list .refs-title > a.active::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: rgba(9, 9, 116, 0.5);
+  margin-top: 5px;
+
+  width: 70%;
+}
+
+.refs .refs-titles-list .refs-title > a > span {
+  display: none;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+/* .refs .refs-titles-list .refs-title > a > span::before {
+  content: "\e91d";
+} */

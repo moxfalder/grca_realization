@@ -61,7 +61,7 @@
   padding: 10px 0px 10px 15px;
   text-decoration: none;
   text-transform: uppercase;
-  transition: all 0.3s ease-out 0.3s;
+  transition: all 0.3s ease-in;
 }
 
 .module > a.active {

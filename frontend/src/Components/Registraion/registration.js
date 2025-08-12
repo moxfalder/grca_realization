@@ -16,7 +16,7 @@ function Registration(props) {
             <Card />
           </div>
           <div className="cards-return">
-            <Links text="Вернуться" />
+            <Links text="На главную" />
           </div>
         </div>
       </div>
