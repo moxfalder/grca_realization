@@ -1,0 +1,10 @@
+.clockTime {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.clockDate {
+  text-align: center;
+}

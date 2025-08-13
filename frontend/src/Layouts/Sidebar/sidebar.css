@@ -74,7 +74,10 @@
   color: #f7f7f7;
 } */
 
-.submodule {
+.submodule-show {
+  display: block;
+}
+.submodule-hide {
   display: none;
 }
 

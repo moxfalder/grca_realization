@@ -9,32 +9,27 @@ export const showHideServices = (e) => {
 
 export const showHide = (e) => {
   e.preventDefault();
-  const module = document.querySelectorAll(".module > a");
-  const subModuleLink = document.querySelector(".module ul");
-  // console.log(module);
-  // console.log(subModuleLink);
-
-  for (let i = 0; i < module.length; i++) {
-    module[i].classList.remove("active");
-    console.log(e.target[i]);
-  }
-
-  e.target.classList.add("active");
-
+  let moduleTitle = document.querySelectorAll(".moduleTitle");
+  let submodule = document.querySelectorAll(".submodule");
   // console.log(submodule);
+  // console.log(e);
+  for (let i = 0; i < moduleTitle.length; i++) {
+    moduleTitle[i].classList.remove("active");
+    moduleTitle[i].nextSibling.classList.add("submodule-hide");
+    // console.log(moduleTitle[i]);
+    // console.log(e.target);
 
-  // const target = document.querySelector(".submodule");
-  // // console.log(target);
-
-  // if (e.target.classList.contains("active")) {
-  //   e.target.classList.remove("active");
-  //   // target.style.display = "none";
-  //   submodule.style.display = "none";
-  // } else {
-  //   e.target.classList.add("active");
-  //   // target.style.display = "block";
-  //   submodule.style.display = "block";
-  // }
+    if (moduleTitle[i] == e.target) {
+      // console.log(moduleTitle[i].nextSibling);
+      // console.log(e);
+      // console.log(submodule);
+      // console.log(moduleTitle[i]);
+      e.target.classList.add("active");
+      moduleTitle[i].nextSibling.classList.remove("submodule-hide");
+      moduleTitle[i].nextSibling.classList.add("submodule-show");
+      // submodule.style.display = "block";
+    }
+  }
 };
 
 // export default showHide;

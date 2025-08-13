@@ -1,0 +1,11 @@
+.card {
+  max-width: 250px;
+  border: 1px solid rgba(9, 9, 116, 0.1);
+  border-radius: 10px;
+  margin: 0px 15px 15px 15px;
+}
+
+.card > a {
+  display: block;
+  padding: 10px;
+}
